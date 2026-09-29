@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product App</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section
+      class="btnSection justify-content-around d-flex align-items-center min-vh-100"
+    >
+      <button class="showBtn btn btn-primary fs-5 fw-bold p-4 rounded-pill">
+        Click to Show Products
+      </button>
+    </section>
+    <p class="loading d-none fw-bold fs-4 text-black text-center">Loading...</p>
+
+    <main
+      class="mainProducts container mt-5 d-flex justify-content-center align-items-center d-none"
+    >
+      <section class="products row gap-4 justify-content-center"></section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
